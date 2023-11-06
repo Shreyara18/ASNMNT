@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightskyblue;
+}
+
+.heading{
+    color: white;
+    font-size: 40px;
+    margin-left: 35%;
+   
+
+}
+
+.root{
+    height: 90%;
+    width: 40%;
+    background-color: white;
+    border-style: double;
+    border-color: white;
+    margin-top: 5%;
+    padding: 5%;
+    margin-left: 26%;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.footer{
+    color: white;
+    margin-left: 34%;
+}

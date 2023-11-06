@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.display {
+    border: none;
+    grid-column: span 3;
+    font-size: 24px;
+}
+
+.clear {
+    background-color: teal;
+    border: none;
+    grid-column: span 1;
+    color: white;
+}
+
+.buttons {
+    width: 400px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+}
+
+.operators {
+    background-color: gray;
+    border: none;
+    color: white;
+}
+
+.numbers {
+    border: none;
+    background-color: black;
+    color: white;
+}

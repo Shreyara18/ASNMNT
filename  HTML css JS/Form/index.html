@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <p class="heading">Customer Survey Form</p>
+    <div class="root">
+        <form id="surveyForm" onsubmit="submitForm(); return false;">
+            <div>
+                <label for="firstName">First Name:</label>&nbsp;&nbsp;&nbsp;
+                <input type="text" id="firstName" required>
+                <label for="lastName" style="margin-left: 90px;">Last Name:</label>&nbsp;&nbsp;&nbsp;
+                <input type="text" id="lastName" required><br><br><br>
+            </div>
+
+            <label for="dob">Date of Birth:</label>&nbsp;&nbsp;&nbsp;
+            <input type="date" id="dob" required><br><br><br>
+
+            <label for="country">Country:</label>&nbsp;&nbsp;&nbsp;
+            <select id="country" required>
+                <option value="">Select Country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+            </select><br><br><br>
+
+            <label>Gender:</label><br>
+            <input type="checkbox" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="checkbox" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br><br>
+
+            <label for="profession">Profession:</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="profession" required><br><br><br>
+
+            <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;
+            <input type="email" id="email" required><br><br><br>
+
+            <label for="mobile">Mobile Number:</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="mobile" required><br><br><br>
+
+            <button type="submit">Submit</button>
+            <button type="button" onclick="resetForm()">Reset</button>
+        </form>
+    </div>
+    <p class="footer">2018 Customer Survey Form. All Rights Reserved | Design by W3Layouts</p>
+    <script src="script.js"></script>
+</body>
+
+</html>
